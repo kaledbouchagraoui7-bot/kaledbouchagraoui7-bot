@@ -2,26 +2,30 @@
   <img src="assets/sentinel_logo_full.png" alt="Sentinel — MedTech, Privacy & Regulatory Compliance Suite" width="780" />
 </div>
 
-<h2 align="center">Kaled Bouchagraoui — MedTech, Regulatory Affairs & Digital Privacy Engineering</h2>
+<h2 align="center">Sentinel Regulatory &amp; Technical Operations</h2>
 
 <p align="center">
-  <strong>Deterministic Open-Source Auditing, Clinical Evidence Synthesis (PRISMA 2020), OpenFDA Post-Market Surveillance, and Regulatory Operations Automation.</strong>
+  <strong>Automated EU MDR / Swiss nFADP Digital Compliance Auditing, OpenFDA Post-Market Surveillance (PSUR), PRISMA 2020 Clinical Literature Synthesis, and RA Submission Gatekeeping.</strong><br/>
+  <a href="https://kaledbouchagraoui7-bot.github.io/medtech-regulatory-compliance-suite/">Executive Storefront &amp; Sample Dossiers (EN / FR)</a> ·
+  <a href="https://kaledbouchagraoui7-bot.github.io/medtech-regulatory-compliance-suite/terms.html">Terms (EN)</a> ·
+  <a href="https://kaledbouchagraoui7-bot.github.io/medtech-regulatory-compliance-suite/cgv.html">CGV (FR)</a>
 </p>
 
 ---
 
-### Sentinel Open-Source Ecosystem
+### Turnkey Regulatory &amp; Compliance Deliverables
 
-| Repository | Regulatory & Technical Scope | Key Deliverables Generated |
-| :--- | :--- | :--- |
-| **[`medtech-regulatory-compliance-suite`](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite)** | **Unified 3-Engine Suite**:<br>• **Engine A**: 25-Control Passive Domain, DMARC & Privacy Auditor<br>• **Engine B**: Clinical Literature & PRISMA 2020 Synthesizer<br>• **Engine C**: RA 5-Painkiller Command Center (SLA Blame-Shield, Guidance Drift Radar, eCTD M1–M5 Cross-Check Linter) | • Swiss-Editorial 1-Page Posture Brief (`.pdf` & `.png`)<br>• Landscape Word Audit & RA Command Briefs (`.docx`)<br>• Filterable Multi-Sheet Excel Workbooks (`.xlsx`)<br>• PRISMA 2020 Flow Diagram & Drop-in DNS/HTTP Configs |
-| **[`sentinel-compliance-auditor`](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor)** | **Standalone 100% Passive External Domain Auditor** across 5 pillars: Email Anti-Spoofing (`DMARC`/`SPF`/`CAA`), Swiss nFADP & EU GDPR Web Privacy (`Google Fonts` IP leak, cookies, trackers), Edge Security (`HSTS`, `CSP`, `X-Frame-Options`), Accessibility (`WCAG 2.1 AA`), and `Schema.org`. | • `<domain>_scorecard.pdf` & `.png` (300 DPI)<br>• `<domain>_executive_audit.docx`<br>• `<domain>_technical_findings.xlsx`<br>• Turnkey `_headers`, `nginx.conf`, and DNS TXT records |
-| **[`pms-clinicaltrials-openfda-monitor`](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor)** | **EU MDR Article 83–86 (PMS / PSUR), MDCG 2022-21 & FDA 21 CFR Part 803 Surveillance Engine** querying live `OpenFDA MAUDE` (adverse events, recalls, 510(k)) and `ClinicalTrials.gov` API v2. | • Landscape Word PSUR Safety & Clinical Report (`.docx`)<br>• 4-Sheet Filterable Surveillance Workbook (`.xlsx`)<br>• 300-DPI Visual PMS Landscape Dashboard (`.png` & `.pdf`) |
-| **[`computational-biology-portfolio`](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio)** | **ICH E6(R2) / E9 / M4 & ALCOA+ Computational Biology Pipelines** (CFTR NCBI RefSeq QC, Clinical Trial EDA & SciPy-free Regulatory Table 1, PubMed/Europe PMC Literature Synthesizer) + **GenevaOS**. | • Reproducible Colab Notebook (`02_clinical_trial_eda.ipynb`)<br>• Regulatory Table 1 Figure & CSV Cohort Artifacts<br>• PMID-First Evidence Matrix (`literature_matrix.md`) |
+| Engine &amp; Repository | Target Audience &amp; Standards | Client-Ready Deliverables |
+|---|---|---|
+| **[`medtech-regulatory-compliance-suite`](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite)** | **MedTech OEMs, SaMD, CROs &amp; RA Leadership**<br>EU MDR 2017/745, Swiss nFADP, GSPR 17.2, eCTD M1–M5 | • Unified Executive Dossier &amp; SLA Blame-Shield Brief (`.docx`)<br>• 4- &amp; 6-Sheet Filterable Compliance &amp; eCTD Workbooks (`.xlsx`)<br>• Swiss-Editorial 300-DPI Briefings (`.png` &amp; `.pdf`)<br>• ALCOA+ SHA-256 Provenance &amp; Signed QA Checklist |
+| **[`sentinel-compliance-auditor`](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor)** | **Life Sciences, Digital Health, Law/IP &amp; Fiduciary**<br>Swiss nFADP / LPD, EU GDPR Art. 13/44, RFC 7489, EAA / WCAG 2.1 AA | • 25-Control Passive External Posture Scorecard (`.png` / `.pdf`)<br>• Landscape Executive Audit &amp; Risk Matrix (`.docx` &amp; `.xlsx`)<br>• Copy-Paste DMARC/SPF/CAA &amp; Nginx/Cloudflare `_headers` |
+| **[`pms-clinicaltrials-openfda-monitor`](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor)** | **QA/RA Directors, PRRCs &amp; Pharmacovigilance**<br>EU MDR Art. 83–86, MDCG 2022-21 PSUR, FDA 21 CFR Part 803 | • Automated OpenFDA MAUDE, Recalls &amp; 510(k) Digest (`.docx`)<br>• 4-Sheet Workbook with Clickable ClinicalTrials.gov NCT Links (`.xlsx`)<br>• 300-DPI Safety &amp; Trial Landscape Dashboard (`.png` &amp; `.pdf`) |
+| **[`computational-biology-portfolio`](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio)** | **Medical Writers, Biostatisticians &amp; Biotech R&amp;D**<br>EU MDR Annex XIV, MEDDEV 2.7/1 Rev 4, ICH E6(R2)/E9, ALCOA+ | • PRISMA 2020 Flow Diagram &amp; Vancouver Word Table (`.docx`)<br>• 4-Sheet Screening Matrix with `#FFF2CC` QA Verification Flags (`.xlsx`)<br>• Reproducible Baseline Table 1 &amp; NCBI RefSeq QC Logs |
 
 ---
 
-### Core Engineering Principles
+### Core Operating Guarantees
 
-- **100% Passive & Non-Intrusive Observation**: External domain evaluations inspect only standard public DNS records (`cloudflare-dns.com` / `dns.google`), TLS handshake metadata, and a single standard HTTPS response (`Swiss StGB Art. 143bis` & NCSC baseline compliant).
-- **ALCOA+ & Deterministic Auditability**: Every clinical, regulatory, and post-market finding traces directly to verifiable primary records (`PMID`, `NCTId`, `MAUDE MDR Report Key`, or raw HTTP/DNS evidence).
+- **100% Passive External Observation (`StGB Art. 143bis`):** Domain and privacy checks evaluate strictly public DNS records (`TXT`, `MX`, `CAA`), TLS certificates, and a single standard HTTPS response — identical to an ordinary web browser visit, with zero intrusive probing.
+- **Strict ALCOA+ &amp; Zero-Fabrication Integrity:** Clinical literature, safety counts, and trial statuses originate directly from NCBI PubMed, Europe PMC, OpenFDA (CC0), and ClinicalTrials.gov REST API v2. Missing fields are flagged in `#FFF2CC` yellow rather than guessed.
+- **Qualified QA / PRRC Sign-Off Workflow:** Deliverables accelerate technical &amp; regulatory preparation and require final qualified internal RA/PRRC/DPO sign-off before regulatory filing or production DNS deployment.
