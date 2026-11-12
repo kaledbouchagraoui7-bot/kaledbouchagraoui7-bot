@@ -26,8 +26,8 @@
 
 ### Public Dataset Research &amp; Benchmark Studies
 
-- **[OpenFDA MAUDE Z-Score Triage (`n = 2,056,124` Insulin Pump MDRs)](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor/blob/main/case_studies/01_insulin_pump_maude_zscore_study.md)** — Quantifies trailing-baseline window sensitivity (`12m` vs. `35m`) and July reporting excursions (`Z = +5.11` / `+2.10`).
-- **[GLP-1 Cardiorenal PRISMA 2020 Precision Audit (`135 -> 25` studies)](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio/blob/main/computational-biology-portfolio/case_studies/01_glp1_prisma2020_reproducibility_study.md)** — Dual-database PubMed + Europe PMC deduplication and clinical false-positive boundaries.
+- **[OpenFDA MAUDE Z-Score Triage (`n = 2,056,124` Insulin Pump MDRs)](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor/blob/main/case_studies/01_insulin_pump_maude_zscore_study.md)** — Quantifies trailing-baseline window sensitivity (`12m` vs. `35m`) and notes July reporting spikes (`Z = +5.11` / `+2.10`) **flagged for review** (raw counts, not incidence rates).
+- **[GLP-1 Cardiorenal PRISMA 2020 Precision Audit (`135 -> 25` studies)](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio/blob/main/computational-biology-portfolio/case_studies/01_glp1_prisma2020_reproducibility_study.md)** — **Automates the mechanical prep** (dual-database PubMed + Europe PMC deduplication and PRISMA count accounting) while documenting clinical false-positive boundaries for human screening.
 - **[Passive External Hygiene Failure Modes (`RFC 7208`, `DMARC`, `nFADP`)](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor/blob/main/case_studies/01_external_hygiene_failure_modes_study.md)** — Anonymized technical analysis of SPF recursion limits and pre-consent tracker leaks.
 
 ---
