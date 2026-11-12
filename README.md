@@ -1,39 +1,32 @@
-<div align="center">
-  <img src="assets/sentinel_logo_full.png" alt="Sentinel — MedTech, Privacy & Regulatory Compliance Suite" width="780" />
-</div>
-
-<h2 align="center">Sentinel Regulatory &amp; Technical Operations</h2>
+<h2 align="center">Kaled Bouchagraoui — Open-Source Scientific &amp; Data Engineering</h2>
 
 <p align="center">
-  <strong>Automated EU MDR / Swiss nFADP Digital Compliance Auditing, OpenFDA Post-Market Surveillance (PSUR), PRISMA 2020 Clinical Literature Synthesis, and RA Submission Gatekeeping.</strong><br/>
-  <a href="https://kaledbouchagraoui7-bot.github.io/medtech-regulatory-compliance-suite/">Executive Storefront &amp; Sample Dossiers (EN / FR)</a> ·
-  <a href="https://kaledbouchagraoui7-bot.github.io/medtech-regulatory-compliance-suite/terms.html">Terms (EN)</a> ·
-  <a href="https://kaledbouchagraoui7-bot.github.io/medtech-regulatory-compliance-suite/cgv.html">CGV (FR)</a>
+  <strong>17-year-old high-school student in France building free, open-source Python tools for biomedical literature synthesis, public registry parsing, and reproducible reporting.</strong><br/>
+  <a href="https://kaledbouchagraoui7-bot.github.io/computational-biology-portfolio/">Live Zero-Install PRISMA 2020 Web Demo</a> ·
+  <a href="https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio">Flagship Repository</a>
 </p>
 
 ---
 
-### Turnkey Regulatory &amp; Compliance Deliverables
+### Flagship Project
 
-| Engine &amp; Repository | Target Audience &amp; Standards | Client-Ready Deliverables |
+| Repository | Focus | Highlights |
 |---|---|---|
-| **[`medtech-regulatory-compliance-suite`](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite)** | **MedTech OEMs, SaMD, CROs &amp; RA Leadership**<br>EU MDR 2017/745, Swiss nFADP, GSPR 17.2, eCTD M1–M5 | • Unified Executive Dossier &amp; Upstream SLA Attribution Brief (`.docx`)<br>• 4- &amp; 6-Sheet Filterable Compliance &amp; eCTD Workbooks (`.xlsx`)<br>• Swiss-Editorial 300-DPI Briefings (`.png` &amp; `.pdf`)<br>• ALCOA+ SHA-256 Provenance &amp; Signed QA Checklist |
-| **[`sentinel-compliance-auditor`](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor)** | **Life Sciences, Digital Health, Law/IP &amp; Fiduciary**<br>Swiss nFADP / LPD, EU GDPR Art. 13/44, RFC 7489, EAA / WCAG 2.1 AA | • 25-Control Passive External Posture Scorecard (`.png` / `.pdf`)<br>• Landscape Executive Audit &amp; Risk Matrix (`.docx` &amp; `.xlsx`)<br>• Copy-Paste DMARC/SPF/CAA &amp; Nginx/Cloudflare `_headers` |
-| **[`pms-clinicaltrials-openfda-monitor`](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor)** | **QA/RA Directors, PRRCs &amp; Pharmacovigilance**<br>EU MDR Art. 83–86, MDCG 2022-21 PSUR, FDA 21 CFR Part 803 | • Automated OpenFDA MAUDE, Recalls &amp; 510(k) Digest (`.docx`)<br>• 4-Sheet Workbook with Clickable ClinicalTrials.gov NCT Links (`.xlsx`)<br>• 300-DPI Safety &amp; Trial Landscape Dashboard (`.png` &amp; `.pdf`) |
-| **[`computational-biology-portfolio`](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio)** | **Medical Writers, Biostatisticians &amp; Biotech R&amp;D**<br>EU MDR Annex XIV, MEDDEV 2.7/1 Rev 4, ICH E6(R2)/E9, ALCOA+ | • PRISMA 2020 Flow Diagram &amp; Vancouver Word Table (`.docx`)<br>• 4-Sheet Screening Matrix with soft amber QA verification flags (`.xlsx`)<br>• Reproducible Baseline Table 1 &amp; NCBI RefSeq QC Logs |
+| **[`computational-biology-portfolio`](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio)** | **Biomedical Literature &amp; Biostatistics Automation**<br>NCBI PubMed, Europe PMC, PRISMA 2020, RefSeq, Table 1 | • **Zero-install browser demo:** [PRISMA 2020 Explorer](https://kaledbouchagraoui7-bot.github.io/computational-biology-portfolio/)<br>• **Ground-truth benchmark:** Reproduces published `PMC13739473` PubMed query (`226` vs. `225` reported, `99.56%` match) and cross-database deduplication (`422 -> 251` unique)<br>• **Automates mechanical prep:** PMID/DOI deduplication, exact count conservation, `.ris`/`.bib` export, and baseline Table 1 math (human PICO &amp; bias review required) |
 
 ---
 
-### Public Dataset Research &amp; Benchmark Studies
+### Supporting Open-Source CLI Utilities
 
-- **[OpenFDA MAUDE Z-Score Triage (`n = 2,056,124` Insulin Pump MDRs)](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor/blob/main/case_studies/01_insulin_pump_maude_zscore_study.md)** — Quantifies trailing-baseline window sensitivity (`12m` vs. `35m`) and notes July reporting spikes (`Z = +5.11` / `+2.10`) **flagged for review** (raw counts, not incidence rates).
-- **[GLP-1 Cardiorenal PRISMA 2020 Precision Audit (`135 -> 25` studies)](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio/blob/main/computational-biology-portfolio/case_studies/01_glp1_prisma2020_reproducibility_study.md)** — **Automates the mechanical prep** (dual-database PubMed + Europe PMC deduplication and PRISMA count accounting) while documenting clinical false-positive boundaries for human screening.
-- **[Passive External Hygiene Failure Modes (`RFC 7208`, `DMARC`, `nFADP`)](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor/blob/main/case_studies/01_external_hygiene_failure_modes_study.md)** — Anonymized technical analysis of SPF recursion limits and pre-consent tracker leaks.
+| Repository | Plain-English Description |
+|---|---|
+| **[`pms-clinicaltrials-openfda-monitor`](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor)** | Python CLI querying public US FDA MAUDE adverse-event counts, recalls, 510(k) clearances, and ClinicalTrials.gov v2 studies into structured Excel/Word tables with monthly Z-score flags for human review (raw counts, not incidence rates). |
+| **[`sentinel-compliance-auditor`](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor)** | Python CLI performing strictly passive external checks of public DNS records (`DMARC`, `SPF` lookup count, `CAA`), TLS metadata, and HTTP security headers into structured reports. |
+| **[`medtech-regulatory-compliance-suite`](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite)** | Unified CLI orchestrator bundling the literature, public-registry, and passive DNS/HTTP scripts into a single command-line package. |
 
 ---
 
-### Core Operating Guarantees
+### Core Engineering Principles
 
-- **100% Passive External Observation (`StGB Art. 143bis`):** Domain and privacy checks evaluate strictly public DNS records (`TXT`, `MX`, `CAA`), TLS certificates, and a single standard HTTPS response — identical to an ordinary web browser visit, with zero intrusive probing.
-- **Strict ALCOA+ &amp; Zero-Fabrication Integrity:** Clinical literature, safety counts, and trial statuses originate directly from NCBI PubMed, Europe PMC, OpenFDA (CC0), and ClinicalTrials.gov REST API v2. Missing fields are highlighted in soft amber for human verification rather than guessed.
-- **Qualified QA / PRRC Sign-Off Workflow:** Deliverables accelerate technical &amp; regulatory preparation and require final qualified internal RA/PRRC/DPO sign-off before regulatory filing or production DNS deployment.
+- **Zero Fabrication &amp; Transparent Boundaries:** Missing DOIs, abstracts, or denominators are never guessed—empty fields are flagged in amber for human verification.
+- **100% Free Public APIs (MIT License):** Built strictly on NCBI Entrez, Europe PMC REST, OpenFDA (CC0), ClinicalTrials.gov v2, and public DNS-over-HTTPS—no paid SaaS dependencies.
