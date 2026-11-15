@@ -5,7 +5,7 @@
   <strong>NIDA GCP v6 Certified &bull; 99.56% Reproducible PRISMA 2020 Engine &bull; 12 ALCOA+ ICH/EU Regulatory Specimens</strong><br/><br/>
   <a href="https://kaledbouchagraoui7-bot.github.io/computational-biology-portfolio/">Live 12-Specimen Regulatory &amp; PRISMA Portfolio</a> &bull;
   <a href="https://www.linkedin.com/in/kaled-bouchagraoui/">LinkedIn</a> &bull;
-  <a href="https://github.com/MakazhanAlpamys/Soup/pull/2864">Open-Source PR: MakazhanAlpamys/Soup#2864</a>
+  <a href="https://github.com/MakazhanAlpamys/Soup/pull/2864">Open-Source Code Review: MakazhanAlpamys/Soup#2864</a>
 </p>
 
 ---
@@ -22,8 +22,8 @@
 
 ---
 
-### Open-Source Contribution
-- **[`MakazhanAlpamys/Soup#2864`](https://github.com/MakazhanAlpamys/Soup/pull/2864):** Authored and rebased contribution to the 10,500-star `Soup` Python CLI &amp; deployment framework, improving Hugging Face Hub Streamlit Space SDK refusal diagnostics and adding `v0.78.0` deprecation warnings (`45` unit tests passing, `ruff` clean).
+### Open-Source Engineering &amp; Peer Code Review
+- **[`MakazhanAlpamys/Soup#2864`](https://github.com/MakazhanAlpamys/Soup/pull/2864):** Comprehensive implementation and unit test suite (`45` unit tests passing, `ruff` clean) for Hugging Face Hub Streamlit Space SDK refusal diagnostics and `v0.78.0` deprecation warnings on the 10,500-star `Soup` CLI. (Closed as duplicate of upstream PR #2834 which previously addressed issue #2746).
 
 ---
 
