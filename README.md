@@ -1,23 +1,39 @@
-# Hi, I'm Kaled Bouchagraoui
+<h2 align="center">Kaled Bouchagraoui — Life Sciences, Regulatory Medical Writing &amp; Open-Source Python</h2>
 
-17-year-old student engineer building reproducible Python CLI tools for computational biology, quantitative risk analytics, security hygiene, LLM cost profiling & routing, and local Obsidian agent workflows.
+<p align="center">
+  <strong>Terminale générale (SVT &amp; Physique-Chimie, Baccalauréat expected June 2027 — Lycée Saint-Félix La Salle, Nantes)</strong><br/>
+  <strong>NIDA GCP v6 Certified &bull; 99.56% Reproducible PRISMA 2020 Engine &bull; 12 ALCOA+ ICH/EU Regulatory Specimens</strong><br/><br/>
+  <a href="https://kaledbouchagraoui7-bot.github.io/computational-biology-portfolio/">Live 12-Specimen Regulatory &amp; PRISMA Portfolio</a> &bull;
+  <a href="https://www.linkedin.com/in/kaled-bouchagraoui/">LinkedIn</a> &bull;
+  <a href="https://github.com/MakazhanAlpamys/Soup/pull/2864">Open-Source PR: MakazhanAlpamys/Soup#2864</a>
+</p>
 
-## Open-Source Python Repositories (102 / 102 Tests Passing)
+---
 
-| Repository | What It Does | Passing Tests | Interactive Demo / Link |
-| :--- | :--- | :---: | :--- |
-| **[`computational-biology-portfolio`](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio)** *(Flagship)* | Reproducible PubMed/PRISMA screening & deduplication pipeline benchmarked at **99.56% accuracy** against published review `PMC13739473`. | `8 / 8` | [Live GitHub Pages Demo](https://kaledbouchagraoui7-bot.github.io/computational-biology-portfolio/) |
-| **[`quant-portfolio-analyzer`](https://github.com/kaledbouchagraoui7-bot/quant-portfolio-analyzer)** | Deterministic portfolio risk (Historical/Parametric VaR & CVaR), Lump-Sum vs. DCA simulation, Sharpe/Sortino/Kelly, and inverse-volatility asset weights. *(Educational analytics only)* | `15 / 15` | [Zero-Install HTML Demo](https://kaledbouchagraoui7-bot.github.io/quant-portfolio-analyzer/) |
-| **[`prompt-cost-profiler`](https://github.com/kaledbouchagraoui7-bot/prompt-cost-profiler)** | Local LLM prompt token counter, whitespace/boilerplate compactor, and complexity-based budget/standard/frontier tier router. | `10 / 10` | [Zero-Install HTML Demo](https://kaledbouchagraoui7-bot.github.io/prompt-cost-profiler/) |
-| **[`sec-asset-hygiene`](https://github.com/kaledbouchagraoui7-bot/sec-asset-hygiene)** | Privacy-first DNS, TLS & security header hygiene CLI with deduplication and Obsidian Vault export. | `8 / 8` | [Zero-Install HTML Demo](https://kaledbouchagraoui7-bot.github.io/sec-asset-hygiene/) |
-| **[`sentinel-compliance-auditor`](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor)** | Audits public website & email domain security settings (SPF/DMARC/TLS/headers) locally. | `4 / 4` | [Repository](https://github.com/kaledbouchagraoui7-bot/sentinel-compliance-auditor) |
-| **[`pms-clinicaltrials-openfda-monitor`](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor)** | Monitors public openFDA & ClinicalTrials.gov endpoints for safety & trial updates. | `4 / 4` | [Repository](https://github.com/kaledbouchagraoui7-bot/pms-clinicaltrials-openfda-monitor) |
-| **[`medtech-regulatory-compliance-suite`](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite)** | Structures medical device regulatory evidence checklists and review folders. | `53 / 53` | [Repository](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite) |
+### 5 Active Flagship Repositories
 
-## Open-Source Tools, Custom Data/PRISMA Runs & Student Collaboration
-- **Custom PRISMA Literature Screening & Deduplication:** Automated Europe PMC / PubMed screening CSVs, PRISMA flow summaries, and Markdown reports.
-- **Quantitative Risk & DCA Analytics (`--mode quant`):** Historical/Parametric VaR & CVaR, Lump-Sum vs. DCA simulation, and inverse-volatility multi-asset weights *(informational math only, not financial advice)*.
-- **DNS / TLS / Security Header Hygiene Audits:** Standard-library Python audits exported as Markdown + Obsidian Vaults.
-- **LLM Prompt Compaction, Routing & Cost Profiling:** Local prompt compaction, complexity-based model tier routing, and cost benchmarking.
-- **Autonomous Obsidian Second Brain Starter Kit:** Local Python runner (`agent_runner.py`), `#agent-run` inbox watcher, `py_compile` + `pytest` verification loop (`self_evolver.py`), and a strict Tier A / Tier B human-approval gate (`governance_verifier.py`).
-- **Contact:** [kaledbouchagraoui7@gmail.com](mailto:kaledbouchagraoui7@gmail.com)
+| Repository | Domain &amp; Capabilities | Live Web Demo | Tests (`pytest`) |
+|---|---|---|---|
+| **[`computational-biology-portfolio`](https://github.com/kaledbouchagraoui7-bot/computational-biology-portfolio)** | Deterministic PubMed &amp; Europe PMC PRISMA 2020 screening &amp; deduplication validated at **99.56%** (`225/226`) against `PMC13739473`, plus **12 ALCOA+ regulatory writing specimens** (ICH E3 CSR, EU CTR PLS, EU MDR CER/PMCF, ICH E2F DSUR, ICH M11, CTD 2.5/2.7). | [Live PRISMA Demo](https://kaledbouchagraoui7-bot.github.io/computational-biology-portfolio/) | `8 passed` |
+| **[`medtech-regulatory-compliance-suite`](https://github.com/kaledbouchagraoui7-bot/medtech-regulatory-compliance-suite)** | Unified EU MDR 2017/745 documentation, RA operations command center, and **openFDA MAUDE &amp; ClinicalTrials.gov Post-Market Surveillance (`pms_monitor/`)**. *(Includes merged `pms-clinicaltrials-openfda-monitor`)* | `CLI & Dossiers` | `57 passed` |
+| **[`quant-portfolio-analyzer`](https://github.com/kaledbouchagraoui7-bot/quant-portfolio-analyzer)** | Deterministic risk &amp; SEC EDGAR analytics: CAGR, Historical/Parametric VaR &amp; CVaR, Sharpe/Sortino, Fractional Kelly, and Lump-Sum vs. DCA simulation *(educational math only)*. | [Zero-Install Demo](https://kaledbouchagraoui7-bot.github.io/quant-portfolio-analyzer/) | `19 passed` |
+| **[`prompt-cost-profiler`](https://github.com/kaledbouchagraoui7-bot/prompt-cost-profiler)** | Local LLM prompt token profiler, whitespace/boilerplate compactor, and complexity-aware tier router across budget/standard/frontier models. | [Zero-Install Demo](https://kaledbouchagraoui7-bot.github.io/prompt-cost-profiler/) | `16 passed` |
+| **[`sec-asset-hygiene`](https://github.com/kaledbouchagraoui7-bot/sec-asset-hygiene)** | Privacy-first DNS/TLS asset hygiene CLI + **25-control Sentinel passive compliance auditor (`sentinel_auditor/`)** covering DMARC/SPF, nFADP/GDPR privacy, Edge TLS headers, and WCAG 2.1 AA. *(Includes merged `sentinel-compliance-auditor`)* | [Zero-Install Demo](https://kaledbouchagraoui7-bot.github.io/sec-asset-hygiene/) | `12 passed` |
+
+---
+
+### Open-Source Contribution
+- **[`MakazhanAlpamys/Soup#2864`](https://github.com/MakazhanAlpamys/Soup/pull/2864):** Authored and rebased contribution to the 10,500-star `Soup` Python CLI &amp; deployment framework, improving Hugging Face Hub Streamlit Space SDK refusal diagnostics and adding `v0.78.0` deprecation warnings (`45` unit tests passing, `ruff` clean).
+
+---
+
+### Verified Clinical Research &amp; Quality Assurance Certifications (8)
+- **Good Clinical Practice (GCP), v6** — NIDA Clinical Trials Network (NIH), valid Sept 2026–2029 (`Contract 75N95024D00037`)
+- **Strengthening Quality Assurance Systems** — Frank Foundation / GHLC (`ID: A1TEoy8EHw`)
+- **6 Modules Scored at 100%** — The Global Health Network (*Data Quality in Clinical Research*, *Data Governance &amp; Access Committees*, *Ethics of Sharing Health Research Data*, *Data Safety &amp; Monitoring Boards (DSMB)*, *Introduction to Data Management for Clinical Studies*, *Collecting &amp; Reporting Adverse Events*)
+
+---
+
+### Engineering Principles
+- **Zero Fabrication &amp; ALCOA+ Traceability:** Missing DOIs, denominators, or clinical values are never invented; incomplete records are explicitly flagged for qualified human PRRC / clinician verification.
+- **Public APIs &amp; Offline Determinism:** Built on NCBI Entrez, Europe PMC, openFDA (CC0), ClinicalTrials.gov v2, SEC EDGAR, and DNS-over-HTTPS with automated `pytest` verification.
